@@ -10,12 +10,7 @@ const SearchInput = ({
 }) => (
   <div className={styles.inputsParent}>
     <div className={styles.inputs}>
-      <Image
-        alt="search-icon"
-        src="/searchIcon.svg" // Ensure the correct path for your asset
-        height={20}
-        width={20}
-      />
+      <Image alt="search-icon" src="/searchIcon.svg" height={20} width={20} />
       <input value={value} onChange={onChange} placeholder="Search" />
     </div>
   </div>

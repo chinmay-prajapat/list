@@ -27,7 +27,7 @@ const UserTable = ({ data }: { data: USER_DATA[] }) => (
               src={item.avatar}
               height={50}
               width={50}
-              objectFit="cover" // Apply objectFit value as per your requirement
+              objectFit="cover"
             />
             <div style={{ paddingLeft: "10px" }}>{item.first_name}</div>
           </div>
