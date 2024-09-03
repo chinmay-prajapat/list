@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.userGrid {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  background: white;
+  border-radius: 5px;
+}
+
+.tableHeading {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  padding: 10px 20px;
+  box-sizing: content-box;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableItems {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  box-sizing: content-box;
+}
+
+.tableItems > div,
+.tableHeading > div {
+  flex: 1;
+  max-width: 33.3%;
+  text-align: left;
+}
+
+.tableItems img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.inputsParent {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inputs {
+  background: white;
+
+  display: flex;
+
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  width: 20%;
+}
+.inputs input {
+  padding-left: 5px;
+  background: none;
+  outline: none;
+  border: none;
+  color: black;
+  height: 35px;
+  width: 100%;
+}
+
+.paginationParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paginationParent .paginationChild {
+  padding: 5px 10px;
+  margin: 5px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+}
